@@ -12,6 +12,10 @@ async def on_message(message):
     if message.author == client.user:
         return
 
+# A COUPLE OF INTERACTIONS WITH THE MESSAGES OF USERS
+# SAVES THE MESSAGE IN A VAR AND THEN TRANSFORM THE CONTENT IN LOWER CASE
+# TO AVOID CASE SENSITIVE
+
     string1 = message.content;
 
     if string1.lower().startswith('hello'):
