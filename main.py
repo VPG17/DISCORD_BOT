@@ -21,4 +21,4 @@ async def on_message(message):
     if string1.lower().startswith('hello'):
         await message.channel.send('Hello!')
 
-client.run(os.getenv('TOKEN'))
+client.run(os.getenv('TOKEN')) #Change TOKEN by your DISCORD TOKEN
